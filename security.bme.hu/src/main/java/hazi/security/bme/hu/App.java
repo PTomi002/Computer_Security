@@ -30,7 +30,7 @@ public class App {
 					if (input.contains("QUIT")) {
 						return;
 					}
-					conn.send(input);
+					conn.send(input); 
 					conn.read();
 				}
 			} finally {
